@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Edit_Message"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Edit_Message"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:breakStrategy="balanced"
+        android:fitsSystemWindows="true"
+        android:gravity="top"
+        android:hint="WRITE YOUR TEXT .."
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:shadowColor="@color/white"
+        android:singleLine="false"
+        android:textColorHint="@color/white" />
+
+
+    <EditText
+        android:id="@+id/Assignid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Title"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/black_overlay"
+        android:ems="10"
+        android:hint="Assignment id(should be unique)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/CourseSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Semester"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="35dp"
+        android:ems="10"
+        android:hint="course"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/Semester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Assignid"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="61dp"
+        android:ems="10"
+        android:hint="Semester"
+        android:inputType="textPersonName" />
+
+
+</RelativeLayout>

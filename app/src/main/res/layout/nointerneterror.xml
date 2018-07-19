@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_layout_error"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff">
+
+    <ImageView
+        android:id="@+id/imgerrror"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/text"
+        android:padding="40dp"
+        android:layout_marginBottom="18dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/nointernet" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Oops! No Internet Connection Found"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:typeface="sans"
+        android:visibility="visible"
+        android:shadowColor="#000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="20"
+        />
+
+  <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="20"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/buttonshape"
+        android:text="Retry"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:onClick="onClick"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>

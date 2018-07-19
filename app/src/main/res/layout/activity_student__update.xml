@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mcntraining.demo2.Student.Student_Update">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tap on camera to choose profile picture"
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/icon_camera"
+                    android:scaleType="centerCrop" />
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+            <EditText
+                android:id="@+id/edit_Message"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_above="@+id/button_submit"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="11dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:breakStrategy="balanced"
+                android:fitsSystemWindows="true"
+                android:gravity="top"
+                android:hint="Your Words"
+                android:inputType="textMultiLine"
+                android:padding="5dp"
+                android:singleLine="false" />
+
+            <Spinner
+                android:id="@+id/courses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:popupTheme="@color/colorPrimary">
+            </Spinner>
+            <Spinner
+                android:id="@+id/sem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="40dp"
+                android:padding="4dp"/>
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_marginBottom="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp">
+            </Spinner>
+            <Spinner
+                android:id="@+id/state"
+                android:layout_marginBottom="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <Spinner
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:padding="4dp">
+            </Spinner>
+
+
+            <EditText
+                android:id="@+id/year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:padding="4dp"
+                android:paddingBottom="12dp"
+                android:hint="Enter Year" />
+            <EditText
+                android:id="@+id/father_name"
+                android:layout_width="match_parent"
+                android:padding="4dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_height="wrap_content"
+                android:hint="Enter Father Name" />
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginBottom="30dp"
+                android:hint="Mobile"
+                android:backgroundTint="@color/colorPrimary"
+                android:inputType="phone" />
+
+
+
+            <EditText
+                android:id="@+id/id_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_marginBottom="25dp"
+                android:hint="Your id card Number" />
+
+            <EditText
+                android:id="@+id/birthdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:ems="10"
+                android:hint="Date of Birth"
+                android:inputType="date" />
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:padding="4dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Your Email number"
+                android:inputType="textEmailAddress" />
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginBottom="30dp"
+                android:hint="Address"
+                android:inputType="textPostalAddress" />
+
+
+            <Button
+                android:id="@+id/buttonUpdate"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:elevation="8dp"
+                android:focusableInTouchMode="true"
+                android:focusedByDefault="true"
+                android:paddingLeft="55dp"
+                android:paddingRight="55dp"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:typeface="monospace" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

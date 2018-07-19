@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mcntraining.demo2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:name=".CheckConnectivity.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/srgclogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/srgclogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity.MainActivity" />
+        <activity android:name=".AboutSRGC.CourseActivity"
+            android:parentActivityName=".MainActivity.MainActivity"/>
+        <activity android:name=".AboutSRGC.AcademicsActivity"
+            android:parentActivityName=".MainActivity.MainActivity"/>
+        <activity android:name=".Faculty.FacultyRegiseration" />
+        <activity android:name=".Student.Student_Registeration" />
+        <activity android:name=".Faculty.Login_Faculty" />
+        <activity android:name=".AboutSRGC.AboutSRGC" />
+        <activity android:name=".AboutSRGC.Chairman_Desk" />
+        <activity android:name=".Enquiry.Enquery"
+            android:parentActivityName=".MainActivity.MainActivity" />
+        <activity android:name=".Faculty.Faculty_Profile"
+            android:parentActivityName=".Faculty.FacultyDeshboard" />
+        <activity
+            android:name=".Student.Student_Profile"
+            android:parentActivityName=".Student.Login_Student" />
+        <activity android:name=".Student.Login_Student" />
+        <activity android:name=".Student.StudentDashboard" />
+        <activity android:name=".Student.ProfileEditStudent" />
+        <activity android:name=".Faculty.FacultyDeshboard" />
+        <activity android:name=".Faculty.FacultyNotifications" />
+        <activity android:name=".Student.StudentNotifications" />
+        <activity android:name=".AboutSRGC.Placement" />
+        <activity android:name=".Student.Student_Update" />
+        <activity android:name=".Logout" />
+        <activity android:name=".AboutSRGC.AdmissionProcess"
+            android:parentActivityName=".MainActivity.MainActivity"/>
+        <activity android:name=".Fragments.Facilities" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Faculty.FacultyAssignments" />
+        <activity android:name=".Faculty.Student_Search" />
+        android:name="preloaded_fonts"
+        android:resource="@array/preloaded_fonts" />
+        <activity android:name=".AboutSRGC.GallerySRGC" />
+        <activity android:name=".AboutSRGC.ContactUs"
+            android:parentActivityName=".MainActivity.MainActivity"/>
+        <activity android:name=".Faculty.FacultyCreateProfile" />
+        <activity android:name=".Faculty.FacultyProfileUpdate" />
+        <activity android:name=".Faculty.SearchAssignment" />
+        <activity android:name=".Student.CheckAssignment" />
+        <activity android:name=".Student.MyResultWebView" />
+        <activity android:name=".Student.MyResult" />
+        <activity android:name=".AboutSRGC.Research" />
+        <activity android:name=".AboutSRGC.ResearchWebview"></activity>
+        <receiver android:name=".CheckConnectivity.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

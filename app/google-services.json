@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "62749800",
+    "firebase_url": "https://srgcproject.firebaseio.com",
+    "project_id": "srgcproject",
+    "storage_bucket": "srgcproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627498004634:android:b79a1b5db58",
+        "android_client_info": {
+          "package_name": "com.mcntraining.demo2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627498004634-09brmmkhnd82uk5dvb1sjqo32nh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mcntraining.demo2",
+            "certificate_hash": "1567945294858be06aa5809964a1a95df1adc0df"
+          }
+        },
+        {
+          "client_id": "627498004634-glhi4ct978ao5igvdo0c459ekrapkeqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDulIA1zVdjVXPNX8H8Paoi5nBuoR7M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627498004634-glhi4ct978ao5igvdo0c459ekrapkeqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

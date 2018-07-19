@@ -1,0 +1,226 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SRGC</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="backdrop_title">SRGC</string>
+    <string name="FEngineering"> <p>ABOUT THE COURSE</p> \n
+SRGC commits itself to be a part of this transforming environment with a holistic and future vision,wherein the talents of students are nurtured and developed to produce ace professionals suitably equipped, confident, competent and capable of serving national and global corporates.
+
+SRGC welcomes students for professional studies and exiting career in Bachelor of Technology in the field of CSE,Electrical,ECE,Mechanical Engineering and Civil Engineering.</string>
+    <string name="B.ed" formatted="false"> Course Type	Under  Graduate Programmes Eligibility	50% marks in any stream except BE and B.Tech at graduation lavel or post graduation level for genral and obc students .Graduate pass for SC/ST55% marks for BE and B.Tech.Note:-Relaxation in admission will be given to reserved categories as per govt. rules.Admission Procedure	Selection of candidate in this course will be done through counselling on the basis of merit list delared after common entrance examination.BTC</string>
+    <string name="BSc" formatted="false"> Course Type Under Graduate Programmes Eligibility	10+2 with Math with 45% marks.Admission Procedure	Based on  merit prepared by the university after online registration.</string>
+    <string name="B.COM" formatted="false">Course Type	Under Graduate ProgrammesEligibility	10+2 in any discipline.Admission Procedure	Based on  merit prepared by the university after online registration.
+    </string>
+    <string name="BCA" formatted="false"> Course Type Under Graduate Programmes Eligibility	10+2 with 45% (SC 40%) marks in any discipline with math at 10th StandardAdmission Procedure	Based on  merit prepared by the university after online registration. </string>
+    <string name="BBA" formatted="false">Course Type	Under Graduate Programmes Eligibility	45% in 10+2 in any discipline.admission Procedure	Based on  merit prepared by the university after online registration.</string>
+    <string name="MBA" formatted="false"> Two years full time programme approved by AICTE and affiliated to UPTU, Lucknow </string>
+    <string name="MCA" formatted="false">Master of Computer Application (MCA) (3 Years )Eligibility:Graduation with 50%(SC 45%) marks in any discipline with mathematics at 10+2 or Graduation levelMaster of Computer Application (MCA)-Lateral (2 Years)</string>
+    <string name="MJMCA" formatted="false">
+        BJMC course helps the candidate to acquire theoretical and application information on various areas related to journalism and mass communication.
+        The course acts as a basis for higher study options, such as master and doctorate level programs in mass communications.
+        This helps the candidate to build up a challenging career in media sector with lucrative salary packages.
+        The same allow opportunity to travel and make contact with a lot of admired personalities.</string>
+    <string name="B.ARCHITECTURE">Course Type	Under Graduate Programmes Eligibility	Intermediate with Mathematics and minimum 50% marks in aggregate.or
+10+ 3 Diploma (any stream) recognized by Central/State Governments with 50% aggregate marks.
+or
+International Baccalaureate Diploma, after 10 years of schooling, with not less than 50% marks in aggregate and with Mathematics as compulsory subject of examination.
+Admission Procedure	(1) Through Centralized State Level (UPSEE) and National Level (AIEEE) Counseling.
+(2) Direct admission through merit list prepared on the equal percent weightage of 10+2 or Diploma or     equivalent Marks and the Marks scored in NATA Test after the registration of interested students.</string>
+    <string name="M.COM">
+Course Type	Post Graduate Programmes
+Eligibility	Graduation in BCom. or BA with Economics or BSc. with Math.
+Admission Procedure	Based on  merit prepared by the university after online registration.</string>
+    <string name="MSc">Course Type	Post Graduate Programmes
+Eligibility	Graduation in Bio-Science with 50% marks.
+Admission Procedure	Based on  merit prepared by the university after online registration.</string>
+    <string name="Med">One year full time programme affiliated to CCS University,Meerut and approved by NCTE</string>
+    <string name="courses">MBA \n  \n MCA \n  \n B.tech \n \n MSc \n \n MJMC \n \n</string>
+    <string name="backdrop_subtitle">SHRI RAM GROUP OF COLLAGES</string>
+    <string name="topic_section1">
+
+
+        Shri Ram Group of Colleges is renowned for its academic excellence in sciences, management studies, computer application and many more.
+        We offer a wide spectrum of programmes at Undergraduate and Post-graduate level in Management, Computer Application, Education, Physical Education, Fine Arts, Journalism and Mass Communication, Law, Commerce and Bioscience.\n
+         Our main goal at is to strive relentlessly for providing quality education and training in challenging fields, so as to empower our students to develop real life situations.\n
+        To cater to the needs of professional education,highly qualified academicians,prestigious bureaucrats and renowned industrialists under the leadership of the eminent educationist <b><i>Dr. S.C. Kulashreshtha</i></b> have formed <b><i>"Shri Ram Charitable Trust"</i></b> with an aim at promoting quality education at affordable fees.\n
+        Today the Shri Ram Group of College (SRGC) has the following colleges in Muzaffarnagar city.
+
+    </string>
+    <string name="topic2">
+        <b><u>Dear Student,</u></b>\n\n
+        On behalf of SRGC family I extend a very warm welcome in joining us for structuring your career.\n
+        We are conscious of the very changing needs of society and therefore, we impart education and train our students beyond the prescribed syllabus to make them complete person so that they may grasp the significance of any situation that arises, know the difference between right and wrong and gain the ability to contemplate nature.\n
+        Therefore, our main goal at <b>SRGC</b> is to strive relentlessly for providing quality education and training in various fields, so as to empower our students to develop real life solutions.\n
+        We dedicate ourselves to provide an environment, which is conducive to high quality research and development. A number of experts, specialists, professionals and academicians of high repute from renowned institutions and corporate world are invited for interaction with students so as to strengthen their conceptual foundations and sharpen their intellect, widen their knowledge and improve their communication skills.\n
+        <b><i>My message would be incomplete without complimenting my faculty, staff and students who are working very hard in cohesion towards the vision of global quality standards. We at SRGC work and live as family and hope that your stay with us will be more comfortable, fruitful and memorable.</i></b>
+    </string>
+
+
+    <string name="F_Arch">The Bachelor Architecture Degree Programme prepares students for /n
+        professional practice in the field of Architecture./n
+        Being an undergraduate program,it has bright scope provideing exposure to a variety of /n
+        interest in this field
+    </string>
+
+    <string name="F_Management">With the growing complexity of all commercial activities and entry
+        entry of multinationals,the need for systematic and and efficient management practice has created a huge demand for component managers in all areas of business and commerce like the organized sectors./n
+        This course has opened up limits opportunities in diverse spheres for the student of commerce and business adminsteration.
+
+    </string>
+    <string name="F_Computer">
+
+Vision
+To create competent, quality computer professionals.
+To inculcate the spirit of discipline, devotion, truth and confidence in the minds of our future nation builders.
+
+Mission
+Our Mission is to provide quality education in the field of Computer Application and thereby develop quality professionals with proper attitude and aptitude to meet the challenges in the field with commitment and moral values.
+
+Objectives
+Keeping both mission and vision of the institute in the mind the department has the following objectives
+
+Providing students with an opportunity to strengthen their knowledge in a specific area of computing.
+100% Results  placements.
+Providing Industrial exposure to the students by arranging Industrial visits, Special lectures.
+Establishing R D Center.
+Motivating the students as well as the faculty members to participate in the research activity and promote innovations.
+Enriching the faculty members in achieving excellence in Teaching-Learning process.
+Encouraging the staff members to pursue higher education
+Motivating the students to achieve University ranks.</string>
+    <string name="F_fine"> Skills like sketching and drawing are appreciable. Courses in Applied Arts, Painting, Sculpture  Visual Communication is to provide fundamental training in Art and Design. It is an introduction to inter-related equally important subjects which include Drawing, Design, Color, Clay modeling, Printing, Geometry and Perspective, Methods  Materials, exercises in Form, Aesthetics and concepts, all of which are designed to promote visual and textural sensibility, formal perception and manual neat-handedness. The Course emphasis is upon creating awareness in the students about the principles of visual and design experience and to suitably prepare him/her for the Specialization courses.
+
+The Bachelor of Fine Arts degree is not merely limited to learning the tricks of making paintings and sculpture. It consists of an in depth training in the fields of fashion designing, textile designing and applied arts. The Performing and Visual Arts Departments at Trinity seek to develop the talents and skills of each student while creating art that glorifies God and blesses those who experience it. Students are free to pursue their creative passions and take their abilities and talents beyond the classroom setting. Concerts, performances, drama productions and art shows are held throughout the year, giving these students opportunities to further develop and share their God-given gifts.
+
+You will learn a variety of skills, including drawing, sculpture, 3 dimensional work, painting, printmaking, mixed media and contextual studies. You will train your aesthetic eye and develop a language through which to express your ideas. You will acquire an awareness of past and present fine art practice. Students are taught in small groups and given one-to-one tutorials. All students have a dedicated space in which to exhibit their work as they develop their sketchbooks and portfolios under the expert guidance of our staff. There are regular opportunities to go on research and drawing trips outside of the studios and to experience the diverse range of local galleries.
+
+BFA MENU
+SRGCHome</string>
+    <string name="corporatecell">SRGC has a very active and dedicated Placement Cell, which is operating under the supervision of the Training &amp; Placement officer. It provides best career options to the students through an active interaction with ectensive resources. Placement Cell works closely with the corporate world to provide employment opportunities to SRGC students. The Institute also provides additional skills enhancement support to its students. Besides maintaining active contacts with the industry SRGC has close links with placement agencies to ensure good placement.
+
+</string>
+    <string name="industrial">The students of SRGC frequently travel to various industries as the part of the industrial visit component of the programme offered. These are excellent opportunities for students to gain exposure to real life work environment and culture. SRGC maintains a close interaction with industry professionals involving them in varipus activities through seminars,guest lectures,projects,consulting etc. Interaction with professionals of the industries help the students to have a glimpse of corporate working environment.
+
+</string>
+    <string name="industrainig">Industrial training is also provided to the students according to the requirement of their course curriculum to gain exposure and explore the practical learing.</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GET STARTED</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+
+    <string name="admissionprocess">1.Firstly the student comes for enquiry at help desk Shri Ram  college.\n\n
+2.	Counselor before recommending any student should check eligibility of the student as required for admission purpose.\n\n
+3.	Student goes to the Online Registration Cell for CCS university courses if not already registered.  After fulfilling the Online registration form help desk should send the students to Admission Controller for recommendation and permission of issue of prospectus.\n\n
+4.	After recommendation admission controller should instruct the student to contact college office for issue of Prospectus.\n\n
+5.	College Office will issue prospectus, I card slip, rules and regulation and undertaking form to the student.\n\n
+6.	When student come after declaring University merit for admission, the Front desk manager will guide the candidate for the verification desk in the verification room.\n\n
+7.	The verification authority will check all the necessary documents in Original and other information as required in admission form.\n\n
+8.	After recommendation for admission, verifying authority will guide the candidate to admission coordinator for the permission of admission.\n\n
+9.	The admission coordinator will recommend and send the candidate to the principal for final signature.\n\n
+10.	After permission of principal the candidate shall submit the fees along with admission form and related documents on fees counter.\n\n </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="courseinfo">
+        <item>Select Course</item>
+        <item>MCA</item>
+        <item>MBA</item>
+        <item>M.sc</item>
+        <item>B.tech</item>
+        <item>B.arch</item>
+        <item>Polytechnic</item>
+        <item>BFA</item>
+        <item>MFA</item>
+        <item>B.ed</item>
+        <item>MJMCA</item>
+        <item>BCA</item>
+        <item>BBA</item>
+        <item>BJMCA</item>
+        <item>B.sc</item>
+    </array>
+
+    <string name="hostel">College Hostel is located in the campus near to college building. Each student is provided with one bed, one study table along with chair and independent almirah with attached bath-room and toilet as part of college hostel facilities.\n\n
+
+        <b>Special facilities:</b>\n\n
+
+» The electricity and water supply is constant around the clock.\n\n
+» Electricity failure, if any, is managed with generator.\n\n
+» Hot water supply through solar and electrical geysers.\n\n
+» Safe drinking water through Aqua guards and water coolers.\n\n
+» Very spacious dining room and well equipped with modern kitchen facility to serve all the meals as per menu decided by mess contractor.</string>
+    <string name="library"><b>Library Information</b>\n\n
+       Library is a vital resource and it serves as a nerve center for all students pursuits. The SRGC computerized impressive libraries comprises of rich collection of carefully selected books,journals,periodicals, newspapers,audio cassettes and compact discs. The Libraries in it stocks have more than 100000 books and more than 336 subscribed journals and magazines.\n\n\n
+        <b>Reprography Services</b>\n\n
+
+        Reprography service is provided to the students. The library members have free access to the libraries of the SRGC for the purpose of reference and can obtain copies of printed articles and other material at a subsidized rate.\n\n
+
+        <b>Computerization</b>\n\n
+        DELNET is being used for automation of activities like Circulation, OPAC, Cataloguing and Acquisition. DELNET also allows the students to work on digital network of  libraries belonging to premier institution across the world.
+    </string>
+
+    <string name="Loan"><b>Education Loan Facility for Students</b>\n\n
+      The scheme aims at providing financial assistance to deserving/meritorious students for pursing professional and technical education is SRGC: especially in Shri Ram College of Engineering and Management,Muzaffarnagar.\n\n
+       <b>Who is Eligible to apply</b>\n\n
+       » Should be an Indian National.\n
+       » Should have secured admission to a higher education course in SRGC.\n
+       » Should have admission through entrance test/merit based selection process after 10+2 or equivalent.\n
+       » Or \n
+       » If admission is purely based on marks,he should have scored in qualifying examination a minimum of 60%.\n\n
+        <b>Check List</b>\n\n
+        » Passport size coloured photographs-5.\n
+        » Address proof.\n
+        » Age proof.\n
+        » Proof of having cleared last qualifying examination.\n
+        » Letter of admission.\n
+        » Fee structure.\n
+        » Details of assets and liabilities parents/guarantors.\n
+        » Copy of PAN of borrower students and their parents.\n\n
+        <b>Remarks:</b>No security required upto a loan of Rs. 4 Lakh.\n
+<b>Repayment-</b>Repayment of loan will be in EMIs-Spread in 10 years or less for loan upto Rs. 7.5 Lakh.\n
+<b>NOTE:</b>No Prepayment penalty is levied for payment of loan.\n\n
+        <b>Moritorium Period</b>\n\n
+        Course period +1 year or 6 months after getting job,whichever is earlier.\n\n
+
+        <b>For Further Enquiry Contact Us</b>\n\n
+        Professor  :Alok Kumar Jain\n
+        Mobile   :9897396390\n
+        Email   :alokjain35@gmail.com
+
+    </string>
+
+    <string name="srgc"><b>Shri Ram College</b>\n
+    Opp.Almaspur Telephone Exchange\n
+Circular Road Muzaffarnagar\n
+251002, India \n
+Tel:-01313291354\n 
+Fax:-0131-2620890 \n
+E-Mail- src_mzn@rediffmail.com
+    </string>
+
+    <string name="SRGCINTEGRAL"><b>SRGC (Integrated Campus)</b>\n
+
+     Opp.Almaspur Telephone Exchange,\n
+Circular Road Muzaffarnagar 251002,\n
+India\n
+Tel:0131-3291354\n
+Fax:-0131-2620890\n
+E-Mail- director@srgcmzn.com
+    </string>
+</resources>

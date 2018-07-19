@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:theme="@android:style/Widget.Holo.Light.WebTextView"
+    tools:context="com.mcntraining.demo2.Fragments.HostelFragment"
+    tools:padding="15dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@drawable/fragment_background">
+            <!-- TODO: Update blank fragment layout -->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="18dp"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="center"
+                android:inputType="text"
+                android:text="HOSTEL"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:fontFamily="@font/nunito_semibold" />
+
+            <TextView
+                android:id="@+id/hostel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:padding="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/hostel" />
+
+           <android.support.v7.widget.RecyclerView
+               android:id="@+id/recycler_view2"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_below="@id/hostel"
+               android:orientation="horizontal">
+           </android.support.v7.widget.RecyclerView>
+            </RelativeLayout>
+
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+</FrameLayout>

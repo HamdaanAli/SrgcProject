@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.mcntraining.demo2.AboutSRGC.AcademicsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarr"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbarr"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:background="@color/colorPrimary"
+                android:elevation="8dp"
+                android:paddingTop="10dp"
+                android:text="Faculty of Engineering"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:lineSpacingExtra="8sp"
+                android:padding="12dp"
+                android:text="@string/FEngineering"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:typeface="monospace" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:background="@color/colorPrimary"
+                android:elevation="8dp"
+                android:paddingTop="10dp"
+                android:text="Faculty of Architecture"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:lineSpacingExtra="8sp"
+                android:padding="12dp"
+                android:text="@string/F_Arch"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="14sp"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:background="@color/colorPrimary"
+                android:elevation="8dp"
+                android:paddingTop="10dp"
+                android:text="Faculty of Management"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:lineSpacingExtra="8sp"
+                android:padding="12dp"
+                android:text="@string/F_Management"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:background="@color/colorPrimary"
+                android:elevation="8dp"
+                android:paddingTop="10dp"
+                android:text="Facult of Computer  "
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:lineSpacingExtra="8sp"
+                android:padding="12dp"
+                android:text="@string/F_Computer"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:background="@color/colorPrimary"
+                android:elevation="8dp"
+                android:paddingTop="10dp"
+                android:text="Facult of Fine Art  "
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:lineSpacingExtra="8sp"
+                android:padding="12dp"
+                android:text="@string/F_fine"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="14sp"
+                android:typeface="serif" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
